@@ -12,7 +12,17 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+@import url('./hero.css');
+@import url('./about-game.css');
+@import url('./key-features.css');
+@import url('./how-the-game-works.css');
+@import url('./design-modes.css');
+@import url('./levels-and-puzzle.css');
+@import url('./story-and-characters.css');
+@import url('./visual-gallery.css');
+@import url('./tips-for-players.css');
+@import url('./game-info.css');
+@import url('./faq.css');
+@import url('./contact-us.css');
