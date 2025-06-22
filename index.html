@@ -23,44 +23,225 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script type="module" crossorigin src="/STP-9537/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-9537/assets/styles-C92G4xOC.css">
+    <link rel="modulepreload" crossorigin href="/STP-9537/assets/vendor-ChjryeKI.js">
+    <link rel="stylesheet" crossorigin href="/STP-9537/assets/vendor-HdWFjXwp.css">
+    <link rel="stylesheet" crossorigin href="/STP-9537/assets/styles-BCxAdtHz.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <div class="wrapper">
-      <nav class="nav">
+      <nav class="nav ">
         <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <img src="/STP-9537/assets/logo-DTvQb6Dh.png" alt="logo" />
+          <img src="/STP-9537/assets/logo-DTvQb6Dh.png" alt="logo"/>
         </a>
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html"
-              >Page 2</a
+            <a
+              class="header-nav-link"
+              href="#hero"
+              aria-label="Go to the Home section"
+              data-mobile-menu-link
+              >Home</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html"
-              >Page 3</a
+            <a
+              class="header-nav-link"
+              href="#about-game"
+              aria-label="Go to the About section"
+              data-mobile-menu-link
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#key-features"
+              aria-label="Go to the Features section"
+              data-mobile-menu-link
+              >Features</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#how-the-game-works"
+              aria-label="Go to the How It Works section"
+              data-mobile-menu-link
+              >How It Works</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#design-modes"
+              aria-label="Go to the Design Modes section"
+              data-mobile-menu-link
+              >Design Modes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#levels-and-puzzle"
+              aria-label="Go to the Game Levels section"
+              data-mobile-menu-link
+              >Game Levels</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#visual-gallery"
+              aria-label="Go to the Gallery section"
+              data-mobile-menu-link
+              >Gallery</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#tips-for-players"
+              aria-label="Go to the Player Tips section"
+              data-mobile-menu-link
+              >Player Tips</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#faq"
+              aria-label="Go to the FAQ section"
+              data-mobile-menu-link
+              >FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link"
+              href="#contact-us"
+              aria-label="Go to the Contact section"
+              data-mobile-menu-link
+              >Contact</a
             >
           </li>
         </ul>
       </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">
-          Open menu
+      <div class="button-container">
+        <button
+        class="burger-btn"
+        data-menu-open data-visible="open" aria-label="Open mobile menu"
+        >
+          <svg class="icon-burger-menu" width="20" height="20">
+            <use href="/STP-9537/assets/sprite-DbgJH6rl.svg#icon-Menu"></use>
+          </svg>
         </button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">
-            close
-          </button>
-        </div>
+        <button
+        type="button"  class="mob-menu-close" data-menu-close data-visible="close" aria-label="Close mobile menu"
+        ><svg class="icon-close" width="24" height="24" fill="#fff">
+          <use href="../img/sprite.svg#icon-close"></use>
+        </svg>
+        </button>
+       
+      </div>
+    </div>
+    <div data-modal data-visible="close" class="mobile-menu container">
+    
+      <nav class="mobile-nav">
+        <ul class="mobail-nav-list">
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#hero"
+              aria-label="Go to the Home section"
+              data-mobile-menu-link
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#about-game"
+              aria-label="Go to the About section"
+              data-mobile-menu-link
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#key-features"
+              aria-label="Go to the Features section"
+              data-mobile-menu-link
+              >Features</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#how-the-game-works"
+              aria-label="Go to the How It Works section"
+              data-mobile-menu-link
+              >How It Works</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#design-modes"
+              aria-label="Go to the Design Modes section"
+              data-mobile-menu-link
+              >Design Modes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#levels-and-puzzle"
+              aria-label="Go to the Game Levels section"
+              data-mobile-menu-link
+              >Game Levels</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#visual-gallery"
+              aria-label="Go to the Gallery section"
+              data-mobile-menu-link
+              >Gallery</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#tips-for-players"
+              aria-label="Go to the Player Tips section"
+              data-mobile-menu-link
+              >Player Tips</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#faq"
+              aria-label="Go to the FAQ section"
+              data-mobile-menu-link
+              >FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="header-nav-link mobile-menu-link"
+              href="#contact-us"
+              aria-label="Go to the Contact section"
+              data-mobile-menu-link
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
       </div>
     </div>
   </div>
@@ -69,15 +250,272 @@
     
 
     <main>
-      <section id="hero">Hero</section>
+      <section class="hero" id="hero">
+  <div class="modal-cookies">
+    <h2>Cookies Policy</h2>
+    <p>
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <button type="button" class="accept-cookies" id="acceptCookies">
+      ACCEPT COOKIES
+    </button>
+    <button type="button" class="decline-cookies" id="declineCookies">
+      DECLINE COOKIES
+    </button>
+  </div>
+  <div class="container hero-container">
+    <div class="hero-blur"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to <br />Match & Design</h1>
+      <h2 class="hero-subtitle">Match Puzzles. <br />Design Dreams.</h2>
+      <p class="hero-text">
+        Step into a world where colorful challenges meet creative expression. In
+        Match & Design, you’ll solve beautifully animated puzzles and use your
+        progress to create stunning rooms. Combine your logic with your
+        aesthetic eye and make each space truly your own. From cozy bedrooms to
+        chic lofts, every match unlocks new possibilities for your dream home.
+      </p>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.triplematch.design.game&hl=en&gl=us"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hero-btn"
+      >
+        <img
+          class="hero-btn-img"
+          src="../img/hero-btn-play.png"
+          alt="btn-google-play"
+        />
+        Google Play
+      </a>
+    </div>
+    <div class="hero-image"></div>
+  </div>
+</section>
 
-      <section id="about-game">About the Game</section>
+      <section class="about-the-game-section" id="about-game">
+  <div class="container about-the-game-container">
+    <div class="about-the-game-content">
+      <h2 class="about-the-game-title">About the Game</h2>
+      <p class="about-the-game-text">
+        Match & Design is a game that blends match-3 puzzles with interactive
+        interior design. As players solve vibrant, strategic block puzzles, they
+        earn rewards to decorate, renovate, and personalize virtual spaces.
+        <br />Each design decision—whether choosing a sleek modern sofa or
+        painting the walls in soft pastels—unlocks new emotional rewards. The
+        gameplay is balanced for both casual fun and thoughtful challenge,
+        making it perfect for players who love to relax and create.
+      </p>
+    </div>
 
-      <section id="key-features">Key Features</section>
+    <picture>
+      <source
+        media="(min-width: 1200px)"
+        srcset="../img/about-the-game-desk.png 1x"
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="../img/about-the-game-mob.png 1x"
+      />
+      <img
+        class="about-the-game-img"
+        src="../img/about-the-game-desk.png"
+        alt="about-the-game-desk"
+        width="550"
+        height="301"
+      />
+    </picture>
+  </div>
+</section>
 
-      <section id="how-the-game-works">How the Game Works</section>
+      <section class="key-features-section" id="key-features">
+  <div class="key-features-container container">
+    <h2 class="key-features-title"> Key Features</h2>
+    <ul>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/1.png"
+          alt="Hundreds of Puzzle Levels"
+        />
+        <div>
+          <h3 class="key-features-item-title">Hundreds of Puzzle Levels</h3>
+          <p class="key-features-item-text">
+            Carefully crafted match-3 boards with increasing complexity.
+          </p>
+        </div>
+      </li>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/2.png"
+          alt="Design-Driven Progression"
+        />
+        <div>
+          <h3 class="key-features-item-title">Design-Driven Progression</h3>
+          <p class="key-features-item-text">
+            Each win earns you the chance to style a part of your home.
+          </p>
+        </div>
+      </li>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/3.png"
+          alt="Custom Interiors"
+        />
+        <div>
+          <h3 class="key-features-item-title">Custom Interiors</h3>
+          <p class="key-features-item-text">
+            Choose from a wide selection of furniture, wallpapers, floors, and
+            decorations.
+          </p>
+        </div>
+      </li>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/4.png"
+          alt="Narrative Arcs"
+        />
+        <div>
+          <h3 class="key-features-item-title">Narrative Arcs</h3>
+          <p class="key-features-item-text">
+            Meet characters, discover renovation stories, and unlock themed
+            design challenges.
+          </p>
+        </div>
+      </li>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/5.png"
+          alt="Offline Friendly"
+        />
+        <div>
+          <h3 class="key-features-item-title">Offline Friendly</h3>
+          <p class="key-features-item-text">
+            Play anywhere, anytime—no Wi-Fi needed.
+          </p>
+        </div>
+      </li>
+      <li class="key-features-item">
+        <img
+          class="key-features-img"
+          src="../img/key/6.png"
+          alt="Frequent Updates"
+        />
+        <div>
+          <h3 class="key-features-item-title">Frequent Updates</h3>
+          <p class="key-features-item-text">
+            New puzzles and room themes added every few weeks.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
-      <section id="design-modes">Design Modes and Spaces</section>
+      <section class="how-the-game-works-section" id="how-the-game-works">
+  <div class="how-the-game-works-container container">
+    <h2 class="how-the-game-works-title">How the Game Works</h2>
+    <div class="swiper how-the-game-works-swiper">
+      <ul class="swiper-wrapper how-the-game-works-list">
+        <li class="how-the-game-works-item swiper-slide">
+          <div class="number one">1</div>
+          <div class="how-the-game-works-box item-a">
+            <h3 class="how-the-game-works-item-title">Match Blocks</h3>
+            <p class="how-the-game-works-item-text">
+              Solve match-3 puzzles by aligning 3 or more of the same tiles.
+            </p>
+          </div>
+        </li>
+        <li class="how-the-game-works-item swiper-slide">
+          <div class="number two">2</div>
+          <div class="how-the-game-works-box item-b">
+            <h3 class="how-the-game-works-item-title">Earn Stars</h3>
+            <p class="how-the-game-works-item-text">
+              Every completed puzzle gives you stars used to unlock design
+              actions.
+            </p>
+          </div>
+        </li>
+        <li class="how-the-game-works-item swiper-slide">
+          <div class="number three">3</div>
+          <div class="how-the-game-works-box item-c">
+            <h3 class="how-the-game-works-item-title">Redecorate Spaces</h3>
+            <p class="how-the-game-works-item-text">
+              Choose between three decor styles for each item—your pick shapes
+              the final look.
+            </p>
+          </div>
+        </li>
+        <li class="how-the-game-works-item swiper-slide">
+          <div class="number four">4</div>
+          <div class="how-the-game-works-box item-d">
+            <h3 class="how-the-game-works-item-title">
+              Progress Through Rooms
+            </h3>
+            <p class="how-the-game-works-item-text">
+              Unlock kitchens, living rooms, outdoor patios, and more.
+            </p>
+          </div>
+        </li>
+        <li class="how-the-game-works-item swiper-slide">
+          <div class="number five">5</div>
+          <div class="how-the-game-works-box item-e">
+            <h3 class="how-the-game-works-item-title">Collect Bonuses</h3>
+            <p class="how-the-game-works-item-text">
+              Special puzzle challenges and design tasks yield coins, boosters,
+              and gifts.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <p class="how-the-game-works-text">
+      Design success is about both vision and strategy—master both for the full
+      experience.
+    </p>
+  </div>
+</section>
+
+      <section class="design-modes" id="design-modes">
+  <div class="design-modes-container container">
+    <h2 class="design-title">Design Modes and Spaces</h2>
+    <p class="design-subtitle">
+      As you progress, you’ll unlock multiple design environments including:
+    </p>
+
+    <div class="swiper design-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-1.png" alt="design-card" />
+        </div>
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-2.png" alt="design-card" />
+        </div>
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-3.png" alt="design-card" />
+        </div>
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-4.png" alt="design-card" />
+        </div>
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-5.png" alt="design-card" />
+        </div>
+        <div class="swiper-slide design-card">
+          <img src="../img/design/design-6.png" alt="design-card" />
+        </div>
+      </div>
+      <div class="design-arrows">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section id="levels-and-puzzle">Levels & Puzzle Challenges</section>
 
