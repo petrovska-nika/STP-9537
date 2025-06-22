@@ -1,0 +1,138 @@
+.cookies-policy {
+  background-color: #fffbeb;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container-cookies-policy {
+  background-color: #fffbeb;
+  padding: 36px 18px 80px;
+  max-width: 284px;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.go-to-home {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #2c0c66;
+  margin-bottom: 36px;
+}
+.go-to-home::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  margin-right: 8px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none"><path d="M6.5 11L1.5 6L6.5 1" stroke="%232C0C66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.container-go-to-home {
+  margin-bottom: 36px;
+}
+.title-cookies-policy {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71429;
+  color: #000;
+  margin-bottom: 24px;
+}
+.subtitle-cookies-policy {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.71429;
+  margin-bottom: 24px;
+}
+.text-cookies-policy {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.71429;
+  margin-bottom: 24px;
+}
+.list-cookies-policy {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.71429;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.item-cookies-policy {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.71429;
+  margin-bottom: 24px;
+}
+.b-test {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.71429;
+}
+.link-cookies-policy {
+  max-width: 284px;
+  text-decoration: underline;
+}
+.contact-us-cookies-policy {
+  padding-bottom: 100px;
+}
+.meta-cookies-policy {
+  padding-top: 48px;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-cookies-policy {
+    background-color: #fffbeb;
+    padding: 49px 72px 0px;
+    max-width: 1056px;
+    margin: 0 auto;
+  }
+  .container-go-to-home {
+    margin-bottom: 72px;
+  }
+  .title-cookies-policy {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .subtitle-cookies-policy {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .text-cookies-policy {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .list-cookies-policy {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .item-cookies-policy {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .b-test {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .link-cookies-policy {
+    max-width: 1056px;
+  }
+  .contact-us-cookies-policy {
+    padding-bottom: 50px;
+  }
+  .meta-cookies-policy {
+    padding-top: 48px;
+    padding-bottom: 50px;
+  }
+}
