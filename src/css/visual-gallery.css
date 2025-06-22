@@ -1,0 +1,105 @@
+.visual-gallery {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.visual-gallery-container {
+  padding: 32px 16px;
+  max-width: 320px;
+  overflow-x: hidden;
+}
+.subtitle-visual-gallery {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.visual-gallery-text {
+  font-family: 'Joti One', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+.visual-gallery-text-subtitle {
+  font-family: 'Joti One', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #2c0c66;
+}
+.gallery-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3px;
+  border-radius: 14px;
+  padding: 8px;
+  width: 133px;
+  height: 262px;
+  box-shadow: 1px 1px 2px 0 rgba(44, 12, 102, 0.25);
+  background: #fff;
+}
+.gallery-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .visual-gallery {
+    max-width: 1200px;
+  }
+  .visual-gallery-container {
+    padding: 100px 74px;
+    max-width: 1200px;
+  }
+  .gallery-container-lisy-desk {
+    display: flex;
+  }
+  .gallery-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 93px;
+  }
+  .subtitle-visual-gallery {
+    font-size: 64px;
+  }
+  .visual-gallery-text {
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+  .gallery-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 25px;
+    padding: 15px;
+    width: 245px;
+    height: 476px;
+    box-shadow: 2px 2px 4px 0 rgba(44, 12, 102, 0.25);
+    background: #fff;
+  }
+  .visual-gallery-text-subtitle {
+    font-size: 24px;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none !important;
+  }
+  .swiper.mobile-only {
+    height: 0;
+    overflow: hidden;
+  }
+}

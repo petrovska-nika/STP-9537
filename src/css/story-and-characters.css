@@ -1,0 +1,143 @@
+.story-and-characters {
+  background-color: #fff1c2;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.story-and-characters-container {
+  background-color: #fff1c2;
+  padding: 32px 16px;
+  max-width: 320px;
+  overflow-x: hidden;
+}
+.story-text-container {
+  max-width: 350px;
+}
+.subtitle-story-and-characters {
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.story-and-characters-text {
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: #0d0025;
+  margin-bottom: 26px;
+}
+.list-story-and-characters {
+  margin-bottom: 26px;
+}
+.item-story-and-characters {
+}
+.subtitle-item-story-and-characters {
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.desktop-only {
+  display: none;
+}
+.mobile-only {
+  display: block;
+}
+.story-swiper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .story-and-characters {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+  }
+  .story-and-characters-container {
+    padding: 100px 112px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+  }
+  .story-text-container {
+    margin-right: 32px;
+  }
+  .subtitle-story-and-characters {
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    margin-bottom: 17px;
+  }
+  .story-and-characters-text {
+    margin-bottom: 26px;
+    max-width: 349px;
+    margin-right: 0px;
+
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+  }
+  .list-story-and-characters {
+    margin-bottom: 0px;
+  }
+  .item-story-and-characters {
+  }
+  .subtitle-item-story-and-characters {
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none !important;
+  }
+  .swiper.mobile-only {
+    height: 0;
+    overflow: hidden;
+  }
+  .desk-container {
+    max-width: 595px;
+  }
+  .story-list {
+    display: flex;
+    max-width: 595px;
+    gap: 32px;
+  }
+  .story-item {
+    width: 177px;
+  }
+  .story-and-characters-text-item {
+    height: 57px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #1e1e1e;
+  }
+  .story-and-characters-text-desk {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+}
