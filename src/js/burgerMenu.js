@@ -1,11 +1,29 @@
-const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+(() => {
+  const refs = {
+    body: document.body,
+    openModalBtn: document.querySelector('[data-menu-open]'),
+    closeModalBtn: document.querySelector('[data-menu-close]'),
+    links: document.querySelectorAll('.mobile-menu-link'),
+    modal: document.querySelector('[data-modal]'),
+  };
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
-});
+  refs.openModalBtn.addEventListener('click', openModal);
+  refs.closeModalBtn.addEventListener('click', closeModal);
+  refs.links.forEach(link => {
+    link.addEventListener('click', closeModal);
+  });
 
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
-});
+  function openModal() {
+    refs.modal.setAttribute('data-visible', 'open');
+    refs.openModalBtn.setAttribute('data-visible', 'close');
+    refs.closeModalBtn.setAttribute('data-visible', 'open');
+    document.body.style.overflow = 'hidden'; // заборонити скрол при відкритті
+  }
+
+  function closeModal() {
+    refs.modal.setAttribute('data-visible', 'close');
+    refs.openModalBtn.setAttribute('data-visible', 'open');
+    refs.closeModalBtn.setAttribute('data-visible', 'close');
+    document.body.style.overflow = ''; // повернути скрол
+  }
+})();

@@ -5,3 +5,4 @@ import './js/story-and-characters';
 import './js/visual-gallery';
 import './js/tips-for-players';
 import './js/faq';
+import './js/modal-cookies';
