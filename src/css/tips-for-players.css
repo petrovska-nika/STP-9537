@@ -31,7 +31,7 @@
   margin: 0;
   display: flex;
 }
-[data-tips-section-swiper] {
+[data-tips-section-swiper] .swiper-slide {
   padding: 0 !important;
 }
 .tips-for-players-item .number {
