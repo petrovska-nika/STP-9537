@@ -1,7 +1,7 @@
 .tips-for-players {
   padding-top: 16px;
   padding-bottom: 33px;
-  background-image: url('/img/bac-tips.png');
+  background-image: url('/img/tips/tips-1x.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .tips-for-players {
-    background-image: url('');
+    background-image: url('/img/tips/tips-2x.webp');
   }
 }
 
@@ -166,6 +166,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     scroll-margin-top: 74px;
+    background-image: url('/img/tips/tips-2x.webp');
   }
   .tips-for-players-container {
     max-width: 1200px;
