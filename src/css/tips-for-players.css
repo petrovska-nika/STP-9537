@@ -31,7 +31,9 @@
   margin: 0;
   display: flex;
 }
-
+[data-tips-section-swiper] {
+  padding: 0 !important;
+}
 .tips-for-players-item .number {
   position: relative;
   font-family: 'Inter', sans-serif;
