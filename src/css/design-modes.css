@@ -84,6 +84,25 @@
 .swiper-button-next::after {
   display: none;
 }
+.design-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.design-button-prev {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.design-button-next {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
 
 @media screen and (min-width: 1200px) {
   .design-modes {
