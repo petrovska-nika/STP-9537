@@ -1,0 +1,192 @@
+.levels-and-puzzle {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-image: url('/img/puzzle/puzzle-1х.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  scroll-margin-top: 40px;
+}
+
+/* Для Retina екранів */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .levels-and-puzzle {
+    background-image: url('/img/puzzle/puzzle-2х.webp');
+  }
+}
+.levels-container {
+  width: 250px;
+}
+.levels-title {
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 23px;
+}
+.levels-subtitle {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffe958;
+  margin-bottom: 23px;
+}
+.levels-text {
+  font-family: 'Itim', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: #ffe958;
+  margin-bottom: 23px;
+  text-align: center;
+}
+.levels-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.levels-container-item:nth-child(1) {
+  margin-bottom: 16px;
+}
+.levels-container-item:nth-child(2):not(:last-child) {
+  margin-bottom: 16px;
+}
+.levels-item {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+  padding: 30px 22px;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 0%,
+    /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
+    /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+  );
+
+  /* Рамка */
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  /* Більший радіус */
+  border-radius: 40px;
+
+  /* Скляний ефект */
+  backdrop-filter: blur(3px);
+
+  /* Темна глибока тінь без світіння */
+  box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
+}
+.levels-item-text {
+  font-family: 'Itim', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: #ffe958;
+}
+.levels-item-image {
+  max-width: 40px;
+  height: 40px;
+}
+.levels-text-end {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .levels-and-puzzle {
+    position: relative;
+    width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .levels-container {
+    width: 1200px;
+  }
+  .levels-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .levels-item {
+    width: 358px;
+    height: 197px;
+  }
+  .levels-title {
+    margin: 0 auto;
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    text-align: center;
+    width: 526px;
+    height: 250px;
+    padding: 40px 45px;
+    margin-bottom: 42px;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0) 0%,
+      /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
+      /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+    );
+
+    /* Рамка */
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    /* Більший радіус */
+    border-radius: 40px;
+
+    /* Скляний ефект */
+    backdrop-filter: blur(3px);
+
+    /* Темна глибока тінь без світіння */
+    box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
+  }
+  .levels-span {
+    font-family: 'Itim', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    vertical-align: baseline; /* вирівняти по текстовій лінії */
+    padding: 0 4px;
+  }
+  .levels-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .levels-container-item:nth-child(1) {
+    display: flex;
+    gap: 340px;
+  }
+  .levels-container-item:nth-child(2) {
+    display: flex;
+    gap: 194px;
+  }
+  .levels-text-end {
+    display: block;
+    margin-top: 42px;
+    font-family: 'Itim', sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #fff;
+  }
+  .levels-subtitle {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .levels-text {
+    font-size: 32px;
+    letter-spacing: -0.04em;
+  }
+  .levels-text-container {
+    position: absolute;
+    left: 50%;
+    top: 582px;
+    transform: translateX(-50%);
+  }
+  .levels-item-text {
+    font-size: 24px;
+  }
+  .levels-item-image {
+    max-width: 94px;
+    height: 94px;
+  }
+}
