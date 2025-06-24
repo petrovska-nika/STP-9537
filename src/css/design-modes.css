@@ -49,6 +49,12 @@
   letter-spacing: -0.04em;
   text-align: center;
   color: #1e1e1e;
+  margin-bottom: 8px;
+}
+.swiper-slide.design-card img {
+  max-width: 266px;
+  height: auto;
+  margin: 0 auto;
 }
 .swiper-wrapper {
   display: flex;
@@ -110,7 +116,7 @@
   }
   .design-card-title {
     font-size: 40px;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
   }
   .design-card-text {
     font-size: 24px;
