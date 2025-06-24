@@ -1,11 +1,16 @@
 .key-features-section {
   padding-top: 36px;
   padding-bottom: 35px;
-  background-image: url('/img/key.png');
+  background-image: url('/img/key/yellow-back-1x.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   scroll-margin-top: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .key-features-section {
+    background-image: url('/img/key/yellow-back-2x.webp');
+  }
 }
 .key-features-container {
   padding: 24px 10px;
