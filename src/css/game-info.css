@@ -4,10 +4,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .game-info-container {
-  padding: 32px 16px;
   max-width: 320px;
   margin: 0 auto;
 }
@@ -33,16 +34,17 @@
 }
 
 .game-info-list {
-  gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 264px;
+  margin: 0 auto;
 }
 
-.game-info-list--mob {
+.game-info-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
+  gap: 20px;
 }
 
 .game-info-list--desk {
@@ -56,18 +58,15 @@
   background-repeat: no-repeat;
   border-radius: 20px;
   padding: 8px;
-  width: 122.14px;
-  height: 81.43px;
+  width: 122px;
+  height: 81px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .subtitle-item-game {
-  font-family: 'Itim', sans-serif;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -76,8 +75,6 @@
 }
 
 .game-info-item-text {
-  font-family: 'Itim', sans-serif;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -85,21 +82,10 @@
   margin: 0;
 }
 
-.game-info-center {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  background: none !important;
-  box-shadow: none;
-  padding: 0;
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media screen and (min-width: 1200px) {
   .game-info {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-image: url('/img/game-info/game-info-2x.webp');
     background-size: cover;
     background-position: center;
@@ -109,7 +95,26 @@
   .game-info-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 170.5px;
+    position: relative;
+  }
+  .game-info-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .game-info-item:nth-child(1) {
+    margin-right: 40px;
+  }
+  .game-info-item:nth-child(2) {
+    margin-right: 40px;
+  }
+  .game-info-item:nth-child(4) {
+    margin-right: 401px;
+  }
+  .game-info-item:nth-child(6) {
+    margin-right: 46px;
   }
   .subtitle-game-info {
     font-size: 64px;
@@ -120,7 +125,12 @@
     margin-bottom: 69px;
   }
   .game-info-text {
+    position: absolute;
     font-size: 72px;
+    width: 335px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
   }
   .subtitle-item-game {
     font-size: 24px;
@@ -128,18 +138,7 @@
   .game-info-item-text {
     font-size: 24px;
   }
-  .game-info-text--mob {
-    display: none;
-  }
-  .game-info-list--mob {
-    display: none;
-  }
-  .game-info-list--desk {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-  }
+
   .game-info-item {
     background-image: url('/img/game-info/babl-game-desk.webp');
     width: 229px;
