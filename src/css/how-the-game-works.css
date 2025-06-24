@@ -6,6 +6,31 @@
   background-position: center;
   background-repeat: no-repeat;
   scroll-margin-top: 40px;
+  position: relative;
+}
+.how-the-game-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  position: absolute;
+  gap: 267px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.how-the-game-button-prev {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.how-the-game-button-next {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
