@@ -37,6 +37,8 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 264px;
+  margin: 0 auto;
 }
 
 .game-info-list {
@@ -100,6 +102,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .game-info-item:nth-child(1) {
     margin-right: 40px;
