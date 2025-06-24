@@ -8,6 +8,8 @@
 
 .game-info-container {
   padding: 32px 16px;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .subtitle-game-info {
