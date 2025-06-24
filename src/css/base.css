@@ -1,3 +1,10 @@
+:root {
+  --number-one-color: #fa9c68;
+  --number-two-color: #53beb0;
+  --number-three-color: #5f41c4;
+  --number-four-color: #c562c9;
+  --number-five-color: #2a3f82;
+}
 body {
   font-family: 'Joti One', sans-serif;
   font-weight: 400;

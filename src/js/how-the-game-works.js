@@ -7,10 +7,10 @@ import Swiper from 'swiper';
 let swiperInstance;
 
 function initSwiper() {
-  if (window.innerWidth < 768 && !swiperInstance) {
-    swiperInstance = new Swiper('.how-the-game-works-swiper', {
+  if (window.innerWidth < 1200 && !swiperInstance) {
+    swiperInstance = new Swiper('[data-game-section-swiper]', {
       slidesPerView: 2,
-      spaceBetween: 13,
+      spaceBetween: 0,
       loop: false,
       // Без стрілок, пагінація не потрібна
       pagination: false,

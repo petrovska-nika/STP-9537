@@ -9,19 +9,19 @@ let swiperInstance;
 
 function initSwiper() {
   if (window.innerWidth < 768 && !swiperInstance) {
-    swiperInstance = new Swiper('.design-swiper', {
+    swiperInstance = new Swiper('[data-design-swiper]', {
       modules: [Navigation, Pagination],
       slidesPerView: 1,
       spaceBetween: 13,
       loop: false,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
     });
   } else if (window.innerWidth >= 768 && swiperInstance) {
     swiperInstance.destroy(true, true);

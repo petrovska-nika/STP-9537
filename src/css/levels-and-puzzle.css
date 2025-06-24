@@ -8,7 +8,6 @@
   scroll-margin-top: 40px;
 }
 
-/* Для Retina екранів */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .levels-and-puzzle {
     background-image: url('/img/puzzle/puzzle-2х.webp');

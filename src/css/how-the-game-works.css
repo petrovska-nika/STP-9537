@@ -1,17 +1,22 @@
 .how-the-game-works-section {
   padding-top: 16px;
   padding-bottom: 33px;
-  background-image: url('/img/how-the-game.png');
+  background-image: url('/img/how-the-game/how-the-game-1x.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  scroll-margin-top: 74px;
+  scroll-margin-top: 40px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .levels-and-puzzle {
+    background-image: url('/img/how-the-game/how-the-game-2x.webp');
+  }
 }
 .how-the-game-works-container {
   width: 320px;
 }
 .how-the-game-works-title {
-  font-family: 'Joti One', sans-serif;
   font-size: 32px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -24,7 +29,9 @@
   margin: 0;
   display: flex;
 }
-
+[data-game-section-swiper] .swiper-slide {
+  padding: 0 !important;
+}
 .how-the-game-works-item .number {
   position: relative;
   font-family: 'Inter', sans-serif;
@@ -42,7 +49,7 @@
   margin-bottom: 20px;
 }
 .number.one {
-  background-color: #fa9c68;
+  background-color: var(--number-one-color);
 }
 .number.one::after {
   content: '';
@@ -51,25 +58,25 @@
   left: 100%;
   transform: translateY(-50%);
   height: 2px;
-  background-color: #fa9c68;
+  background-color: var(--number-one-color);
   width: 105px;
 }
 .number.two {
-  background-color: #53beb0;
+  background-color: var(--number-two-color);
 }
 .number.two::after {
   content: '';
   position: absolute;
   top: 50%;
-  left: 100%; /* починається після цифри */
+  left: 100%;
   transform: translateY(-50%);
   height: 2px;
-  background-color: #53beb0;
+  background-color: var(--number-two-color);
   width: 105px;
 }
 
 .number.three {
-  background-color: #5f41c4;
+  background-color: var(--number-three-color);
 }
 .number.three::after {
   content: '';
@@ -78,11 +85,11 @@
   left: 100%;
   transform: translateY(-50%);
   height: 2px;
-  background-color: #5f41c4;
+  background-color: var(--number-three-color);
   width: 105px;
 }
 .number.four {
-  background-color: #c562c9;
+  background-color: var(--number-four-color);
 }
 .number.four::after {
   content: '';
@@ -91,11 +98,11 @@
   left: 100%;
   transform: translateY(-50%);
   height: 2px;
-  background-color: #c562c9;
+  background-color: var(--number-four-color);
   width: 105px;
 }
 .number.five {
-  background-color: #2a3f82;
+  background-color: var(--number-five-color);
 }
 .number.five::after {
   content: '';
@@ -104,7 +111,7 @@
   left: 100%;
   transform: translateY(-50%);
   height: 2px;
-  background-color: #2a3f82;
+  background-color: var(--number-five-color);
   width: 105px;
 }
 .how-the-game-works-box {
@@ -114,19 +121,19 @@
   background: #fffbeb;
 }
 .item-a {
-  border: 3px solid #fa9c68;
+  border: 3px solid var(--number-one-color);
 }
 .item-b {
-  border: 3px solid #53beb0;
+  border: 3px solid var(--number-two-color);
 }
 .item-c {
-  border: 3px solid #5f41c4;
+  border: 3px solid var(--number-three-color);
 }
 .item-d {
-  border: 3px solid #c562c9;
+  border: 3px solid var(--number-four-color);
 }
 .item-e {
-  border: 3px solid #2a3f82;
+  border: 3px solid var(--number-five-color);
 }
 .how-the-game-works-item-title {
   font-size: 16px;
@@ -152,12 +159,25 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .how-the-game-works-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    scroll-margin-top: 74px;
+  }
+
   .how-the-game-works-container {
     width: 1200px;
   }
+  .how-the-game-works-title {
+    font-size: 64px;
+    letter-spacing: -0.04em;
+  }
+  .how-the-game-works-text {
+    display: none;
+  }
   .swiper-wrapper.how-the-game-works-list {
     display: flex;
-    flex-wrap: wrap; /* або wrap, якщо хочеш перенос */
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
   }
