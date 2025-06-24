@@ -51,8 +51,10 @@
 .levels-container-item:nth-child(2):not(:last-child) {
   margin-bottom: 16px;
 }
-.levels-item {
+.levels-list {
   margin-top: 25px;
+}
+.levels-item {
   display: flex;
   gap: 10px;
   padding: 30px 22px;
@@ -150,13 +152,18 @@
   .levels-item:not(:last-child) {
     margin-bottom: 40px;
   }
+  .levels-container-item:nth-child(2):not(:last-child) {
+    margin-bottom: 0;
+  }
   .levels-container-item:nth-child(1) {
     display: flex;
     gap: 340px;
+    margin-bottom: 0;
   }
   .levels-container-item:nth-child(2) {
     display: flex;
     gap: 194px;
+    margin-bottom: 0;
   }
   .levels-text-end {
     display: block;
