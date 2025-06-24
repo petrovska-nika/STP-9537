@@ -1,5 +1,5 @@
 .game-info {
-  background-image: url('/img/game-info_mob.jpg');
+  background-image: url('/img/game-info/game-info-1x.webp');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 }
 
 .game-info-item {
-  background-image: url('/img/babl-game.png');
+  background-image: url('/img/game-info/babl-game.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@
   .game-info {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url('/img/game-info-1920.jpg');
+    background-image: url('/img/game-info/game-info-2x.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@
   }
 
   .game-info-item {
-    background-image: url('/img/babl-game-desk.png');
+    background-image: url('/img/game-info/babl-game-desk.webp');
     width: 229px;
     height: 197px;
   }
