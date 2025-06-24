@@ -82,6 +82,13 @@
 }
 .gallery-button-prev {
   fill: #1e1e1e;
+  border: none;
+  background: transparent;
+}
+.gallery-button-next {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
 }
 @media screen and (min-width: 1200px) {
   .visual-gallery {
