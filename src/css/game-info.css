@@ -1,0 +1,146 @@
+.game-info {
+  background-image: url('/img/game-info_mob.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.game-info-container {
+  padding: 32px 16px;
+}
+
+.subtitle-game-info {
+  margin-bottom: 24px;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.game-info-text {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffe958;
+  margin-bottom: 22px;
+}
+
+.game-info-list {
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.game-info-list--mob {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.game-info-list--desk {
+  display: none;
+}
+
+.game-info-item {
+  background-image: url('/img/babl-game.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 8px;
+  width: 122.14px;
+  height: 81.43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.subtitle-item-game {
+  font-family: 'Itim', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffe958;
+  margin: 0;
+}
+
+.game-info-item-text {
+  font-family: 'Itim', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.game-info-center {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: none !important;
+  box-shadow: none;
+  padding: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .game-info {
+    background-image: url('../img/game-info-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .game-info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 170.5px;
+  }
+  .subtitle-game-info {
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #ffe958;
+    margin-bottom: 69px;
+  }
+  .game-info-text {
+    font-size: 72px;
+  }
+  .subtitle-item-game {
+    font-size: 24px;
+  }
+  .game-info-item-text {
+    font-size: 24px;
+  }
+  .game-info-text--mob {
+    display: none;
+  }
+  .game-info-list--mob {
+    display: none;
+  }
+  .game-info-list--desk {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .game-info-item {
+    background-image: url('/img/babl-game-desk.png');
+    width: 229px;
+    height: 197px;
+  }
+}

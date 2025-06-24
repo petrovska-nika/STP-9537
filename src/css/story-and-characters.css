@@ -1,11 +1,11 @@
 .story-and-characters {
   background-color: #fff1c2;
   width: 100%;
-  margin: 0 auto;
+  display: block;
   box-sizing: border-box;
 }
 .story-and-characters-container {
-  background-color: #fff1c2;
+  margin: 0 auto;
   padding: 32px 16px;
   max-width: 320px;
   overflow-x: hidden;
@@ -66,11 +66,6 @@
   border-radius: 10px;
 }
 @media screen and (min-width: 1200px) {
-  .story-and-characters {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-  }
   .story-and-characters-container {
     padding: 100px 112px;
     max-width: 1200px;

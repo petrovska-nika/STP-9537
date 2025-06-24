@@ -31,6 +31,22 @@
   background-size: contain;
   vertical-align: middle;
 }
+.go-to-home:hover {
+  border: 1px solid rgba(44, 12, 102, 0.5);
+  border-radius: 100px;
+  padding: 5px;
+  width: 149px;
+  height: 38px;
+  background: rgba(44, 12, 102, 0.25);
+}
+.go-to-home:focus {
+  border: 1px solid #4756ff;
+  border-radius: 100px;
+  padding: 18px 5px;
+  width: 149px;
+  height: 64px;
+  background: #4756ff;
+}
 .container-go-to-home {
   margin-bottom: 36px;
 }
