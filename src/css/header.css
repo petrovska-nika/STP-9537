@@ -64,6 +64,13 @@
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mobile-nav-container {
+  width: 320px;
+  margin: 0 auto;
+}
+.mobile-nav {
+  text-align: left;
+}
 .burger-btn {
   background-color: transparent;
   padding: 0;
@@ -102,7 +109,7 @@
   display: none;
 }
 
-.mobail-nav-list {
+.mobile-nav-list {
   padding: 18px 28px;
 }
 .nav-item:not(:last-child) {
