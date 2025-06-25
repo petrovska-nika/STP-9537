@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding-top: 32px;
   padding-bottom: 32px;
+  scroll-margin-top: 40px;
 }
 
 .game-info-container {
@@ -90,6 +91,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    scroll-margin-top: 74px;
   }
 
   .game-info-container {

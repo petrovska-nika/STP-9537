@@ -1,8 +1,7 @@
 .about-the-game-section {
   padding-top: 36px;
   padding-bottom: 24px;
-  scroll-margin-top: 74px;
-  /* background-color: #fff2de; */
+  scroll-margin-top: 40px;
 }
 .about-the-game-container {
   width: 228px;
@@ -29,6 +28,7 @@
   .about-the-game-section {
     padding-top: 85px;
     padding-bottom: 85px;
+    scroll-margin-top: 74px;
   }
   .about-the-game-container {
     display: flex;

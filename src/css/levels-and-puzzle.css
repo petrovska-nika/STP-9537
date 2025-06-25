@@ -83,6 +83,7 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+    scroll-margin-top: 74px;
   }
   .levels-container {
     width: 1200px;
