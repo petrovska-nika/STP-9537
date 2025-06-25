@@ -25,7 +25,7 @@
     <script type="module" crossorigin src="/STP-9537/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-9537/assets/vendor-CGkb_3Xs.js">
     <link rel="stylesheet" crossorigin href="/STP-9537/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/STP-9537/assets/styles-2SLLIFyu.css">
+    <link rel="stylesheet" crossorigin href="/STP-9537/assets/styles-pnwW6jOc.css">
   </head>
   <body>
     <header class="header">
@@ -136,7 +136,7 @@
           aria-label="Open mobile menu"
         >
           <svg class="icon-burger-menu" width="24" height="24">
-            <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#icon-Menu"></use>
+            <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#icon-Menu"></use>
           </svg>
         </button>
         <button
@@ -147,7 +147,7 @@
           aria-label="Close mobile menu"
         >
           <svg class="icon-close" width="24" height="24">
-            <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#icon-close"></use>
+            <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#icon-close"></use>
           </svg>
         </button>
       </div>
@@ -262,10 +262,20 @@
       website, you agree to our use of cookies.
     </p>
     <div>
-      <button type="button" class="accept-cookies" id="acceptCookies">
+      <button
+        type="button"
+        class="accept-cookies"
+        id="acceptCookies"
+        aria-label="accept cookies"
+      >
         accept cookies
       </button>
-      <button type="button" class="decline-cookies" id="declineCookies">
+      <button
+        type="button"
+        class="decline-cookies"
+        id="declineCookies"
+        aria-label="decline cookies"
+      >
         decline cookies
       </button>
     </div>
@@ -286,12 +296,21 @@
         target="_blank"
         rel="noopener noreferrer"
         class="hero-btn"
+        aria-label="Download Match & Design on Google Play"
       >
-        <img
-          class="hero-btn-img"
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIiSURBVHgBrZY/aBNRGMC/7+5dtTZVUBRd5CJW1w4NdFBMtN3FP0O3ODg42YwOgkEEnZoKTg6tgyQ4iOCi2HA3KBYsjq69QaqeCKmNaHN/Pt87ehLP3N27M78leZeP34+8dxwHsEPpyeXJqealMgwZnG6e1z1UDQLQgwsAFhDV3809XYYhgFOtiwb/LP/7CzxjvlZbnWtZ8B/g6fsv6Oehh/EDAMsqafW8IUXbOgWj9tXYAb51VQ8do9S8UIUc4Nk7XRJfnPHXkPRPguEc5/MnIBvZCUlv21+BLBHZkBK9kHYm/YjzOTliG722VpUOhJHCx9uA/h5IYoJtwsLetzoSLbltbX1QSIktbx+FsY0bsREhf7DvDYyjE6yJKAwtkbFbTw0kRaLyfnio6nruutPWFlIDgyJJ8khp3nnFbqUG+iMnFEdOHoJwXSogOPatB/ee21Do+ZAFqcCZzy/h5vsa7NrwYOvxBNC2CpI8Sg0I+bUPd2HM7QZr78uobGRRm3HnFRl5lJSIyVRWFHKxULLKoxF/cyRYIyJ/EEKFiytY+WWFc0oeeX+k2zpuEWGNnXOK2qxrRmdYXrmAkOrfv+5vHJh1OnEzLJccwfRc9coRc9VKG2WZ5FyMQPWDK2smSMJk5Py53/H4dhxeWWtARliSXIh9pMUfbqFRNM0O5ADtmZLBb6/yALv0PifBhERVff5uRHoozrrPUtjl0uSn8rQOQ+Y3sIgfWHw4xmQAAAAASUVORK5CYII="
-          alt="btn-google-play"
-        />
+        <picture>
+          <source
+            srcset="data:image/webp;base64,UklGRiQEAABXRUJQVlA4WAoAAAAwAAAAFwAAGwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIcwAAAAF/QCAImWKBJoiICJx1HLiKZFtOTvZEAQL4C3HBL0h4EtAQKUiIFBYDkfAMpOqw3SkkRPR/AnQUfDqBzT5Etj2itSFeG+KlJF5K4oSckEfkHs0o/+2KBjIJnAUuAnMBbqWiW60ot4ryTr83e1L49ElwLwgAVlA4ILoBAACQDQCdASoYABwAPhkIgkEhBgMABABhLYATplCOBvXfwA/G7ohd8uwH6jZUXxP/ePyO/me8W/1z8ju0B5gP1E/0ft0dIB+p/WAegB5O//A/yvwH/sN/wv9J7MZMm6QAWtrifgOaPzJHHeYntej51gET9ASRJ6AA/pzKqu8q9/12X7BfqcimH6bj/Bb5f6U1t/mr37g//Hge4BW27tYdUEDfGyUqlGiwuZcdvIHQo/cz8kclgip5Uk0RgjH//sXoOqPHU2HX66LyvOHg8TadUiyrOUpEf676Hz+UY83WwjzaIKUX76FCpcBqK0I7cfiagsPhXtdJf7sCqll/5r/9K3lW82je4VWmHB7si5Y1+OH5q0J8rU1e/1ogkkUGm1m3QZFKp3c0scTzvQL99zaizKQlIHmCByF+9bQnKSmChMLqLIvIKgl3daQ9bMINp+saNHp3++bBzgGKa3t+OJXX/pdF/uKCmPS6oeTwQmo8lH/6r/BTAAIWT1HVN1qPD9wmqZazBcb/5LhB+zC/X/6TAoxi7pY28d7/x8LHiJqk1wnaO8Od/5ws/wv/NUkKwtqL//WyWKlmAqhDTQAA 1x, data:image/webp;base64,UklGRiQEAABXRUJQVlA4WAoAAAAwAAAAFwAAGwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIcwAAAAF/QCAImWKBJoiICJx1HLiKZFtOTvZEAQL4C3HBL0h4EtAQKUiIFBYDkfAMpOqw3SkkRPR/AnQUfDqBzT5Etj2itSFeG+KlJF5K4oSckEfkHs0o/+2KBjIJnAUuAnMBbqWiW60ot4ryTr83e1L49ElwLwgAVlA4ILoBAACQDQCdASoYABwAPhkIgkEhBgMABABhLYATplCOBvXfwA/G7ohd8uwH6jZUXxP/ePyO/me8W/1z8ju0B5gP1E/0ft0dIB+p/WAegB5O//A/yvwH/sN/wv9J7MZMm6QAWtrifgOaPzJHHeYntej51gET9ASRJ6AA/pzKqu8q9/12X7BfqcimH6bj/Bb5f6U1t/mr37g//Hge4BW27tYdUEDfGyUqlGiwuZcdvIHQo/cz8kclgip5Uk0RgjH//sXoOqPHU2HX66LyvOHg8TadUiyrOUpEf676Hz+UY83WwjzaIKUX76FCpcBqK0I7cfiagsPhXtdJf7sCqll/5r/9K3lW82je4VWmHB7si5Y1+OH5q0J8rU1e/1ogkkUGm1m3QZFKp3c0scTzvQL99zaizKQlIHmCByF+9bQnKSmChMLqLIvIKgl3daQ9bMINp+saNHp3++bBzgGKa3t+OJXX/pdF/uKCmPS6oeTwQmo8lH/6r/BTAAIWT1HVN1qPD9wmqZazBcb/5LhB+zC/X/6TAoxi7pY28d7/x8LHiJqk1wnaO8Od/5ws/wv/NUkKwtqL//WyWKlmAqhDTQAA 2x 2x"
+          />
+          <img
+            class="hero-btn-img"
+            src="data:image/webp;base64,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"
+            alt="btn-google-play"
+            width="24"
+            height="24"
+            loading="lazy"
+          />
+        </picture>
         Google Play
       </a>
     </div>
@@ -317,18 +336,19 @@
     <picture>
       <source
         media="(min-width: 1200px)"
-        srcset="/STP-9537/assets/about-the-game-desk-BS5ZLrls.png 1x"
+        srcset="/STP-9537/assets/about-the-game-desk-1x-JMPv_3Nb.webp 1x, /STP-9537/assets/about-the-game-desk-2x-NuN7LqcW.webp 2x"
       />
       <source
         media="(min-width: 320px)"
-        srcset="/STP-9537/assets/about-the-game-mob-5FPlK-v4.png 1x"
+        srcset="/STP-9537/assets/about-the-game-mob-1x-2_x1uLHp.webp 1x, /STP-9537/assets/about-the-game-mob-2x-DnsEXJvO.webp 2x"
       />
       <img
         class="about-the-game-img"
-        src="/STP-9537/assets/about-the-game-desk-BS5ZLrls.png"
+        src="/STP-9537/assets/about-the-game-desk-2x-NuN7LqcW.webp"
         alt="about-the-game-desk"
         width="550"
         height="301"
+        loading="lazy"
       />
     </picture>
   </div>
@@ -339,12 +359,18 @@
     <h2 class="key-features-title"> Key Features</h2>
     <ul>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-1-1x.png"
-          srcset="/STP-9537/assets/key-1-1x-CEsUMpOg.webp 1x, /STP-9537/assets/key-1-2x-C7KHpTyc.webp 2x"
-          alt="Hundreds of Puzzle Levels"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-1-1x-CEsUMpOg.webp 1x, /STP-9537/assets/key-1-2x-C7KHpTyc.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-1-2x.png"
+            alt="Hundreds of Puzzle Levels"
+          />
+        </picture>
+
         <div>
           <h3 class="key-features-item-title">Hundreds of Puzzle Levels</h3>
           <p class="key-features-item-text">
@@ -353,12 +379,19 @@
         </div>
       </li>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-2-1x.png"
-          srcset="/STP-9537/assets/key-2-1x-iGTxGn36.webp 1x, /STP-9537/assets/key-2-2x-BbDASnlP.webp 2x"
-          alt="Design-Driven Progression"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-2-1x-iGTxGn36.webp 1x, /STP-9537/assets/key-2-2x-BbDASnlP.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-2-2x.png"
+            alt="Design-Driven Progression"
+            loading="lazy"
+          />
+        </picture>
+
         <div>
           <h3 class="key-features-item-title">Design-Driven Progression</h3>
           <p class="key-features-item-text">
@@ -367,12 +400,19 @@
         </div>
       </li>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-3-1x.png"
-          srcset="/STP-9537/assets/key-3-1x-C5xDz22W.webp 1x, /STP-9537/assets/key-3-2x-DH820Fu4.webp 2x"
-          alt="Custom Interiors"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-3-1x-C5xDz22W.webp 1x, /STP-9537/assets/key-3-2x-DH820Fu4.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-3-2x.png"
+            alt="Custom Interiors"
+            loading="lazy"
+          />
+        </picture>
+
         <div>
           <h3 class="key-features-item-title">Custom Interiors</h3>
           <p class="key-features-item-text">
@@ -382,12 +422,18 @@
         </div>
       </li>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-4-1x.png"
-          srcset="/STP-9537/assets/key-4-1x-DKLypjfw.webp 1x, /STP-9537/assets/key-4-2x-BmaEz1gv.webp 2x"
-          alt="Narrative Arcs"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-4-1x-DKLypjfw.webp 1x, /STP-9537/assets/key-4-2x-BmaEz1gv.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-4-2x.png"
+            alt="Narrative Arcs"
+            loading="lazy"
+          />
+        </picture>
         <div>
           <h3 class="key-features-item-title">Narrative Arcs</h3>
           <p class="key-features-item-text">
@@ -397,12 +443,19 @@
         </div>
       </li>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-5-1x.png"
-          srcset="/STP-9537/assets/key-5-1x-B3DS9vHV.webp 1x, /STP-9537/assets/key-5-2x-BCtM8okg.webp 2x"
-          alt="Offline Friendly"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-5-1x-B3DS9vHV.webp 1x, /STP-9537/assets/key-5-2x-BCtM8okg.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-5-2x.png"
+            alt="Offline Friendly"
+            loading="lazy"
+          />
+        </picture>
+
         <div>
           <h3 class="key-features-item-title">Offline Friendly</h3>
           <p class="key-features-item-text">
@@ -411,12 +464,19 @@
         </div>
       </li>
       <li class="key-features-item">
-        <img
-          class="key-features-img"
-          src="/img/key/key-6-1x.png"
-          srcset="/STP-9537/assets/key-6-1x-Bf7aud_m.webp 1x, /STP-9537/assets/key-6-2x-CO6SvRIT.webp 2x"
-          alt="Frequent Updates"
-        />
+        <picture>
+          <source
+            srcset="/STP-9537/assets/key-6-1x-Bf7aud_m.webp 1x, /STP-9537/assets/key-6-2x-CO6SvRIT.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="key-features-img"
+            src="/img/key/key-6-2x.png"
+            alt="Frequent Updates"
+            loading="lazy"
+          />
+        </picture>
+
         <div>
           <h3 class="key-features-item-title">Frequent Updates</h3>
           <p class="key-features-item-text">
@@ -493,7 +553,7 @@
         data-how-the-game-btn-prev
       >
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#left-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#left-button"></use>
         </svg>
       </button>
 
@@ -504,7 +564,7 @@
         data-how-the-game-btn-next
       >
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#right-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#right-button"></use>
         </svg>
       </button>
     </div>
@@ -530,20 +590,17 @@
             Redesign traditional rooms with a modern touch.
           </p>
           <picture>
-            <!-- Десктоп webp -->
             <source
               srcset="/STP-9537/assets/design-1-1x-BrQj4FZ1.webp 1x, /STP-9537/assets/design-1-2x-BQtdl9wS.webp 2x"
               type="image/webp"
               media="(min-width: 1200px)"
             />
-
-            <!-- Мобілка webp -->
             <source
               srcset="/STP-9537/assets/design-mob-1-1x-DoopwLWT.webp 1x, /STP-9537/assets/design-mob-1-2x-smYzMICS.webp 2x"
               type="image/webp"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+
             <img
               src="/STP-9537/assets/design-1-2x-BQtdl9wS.webp"
               alt="Classic Home Makeovers"
@@ -558,20 +615,20 @@
             Build sunny, relaxed interiors using tropical textures.
           </p>
           <picture>
-            <!-- Десктоп webp -->
+
             <source
               srcset="/STP-9537/assets/design-2-1x-DBsiZQJW.webp 1x, /STP-9537/assets/design-2-2x-CJXt2ue_.webp 2x"
               type="image/webp"
               media="(min-width: 1200px)"
             />
 
-            <!-- Мобілка webp -->
+
             <source
               srcset="/STP-9537/assets/design-mob-2-1x-Cma5OsIc.webp 1x, /STP-9537/assets/design-mob-2-2x-CjxJTqNM.webp 2x"
               type="image/webp"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+ 
             <img
               src="/STP-9537/assets/design-2-2x-CJXt2ue_.webp"
               alt="Beach Villas"
@@ -586,19 +643,19 @@
             Add industrial elegance to city apartments.
           </p>
           <picture>
-            <!-- Десктоп webp -->
+
             <source
               srcset="/STP-9537/assets/design-3-1x-BWQj7bMu.webp 1x, /STP-9537/assets/design-3-2x-CzRgWftw.webp 2x"
               type="image/webp"
               media="(min-width: 1200px)"
             />
 
-            <!-- Мобілка webp -->
+
             <source
               srcset="/STP-9537/assets/design-mob-3-1x-CESFyids.webp 1x, /STP-9537/assets/design-mob-3-2x-UUQTpSgV.webp 2x"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+
             <img
               src="/STP-9537/assets/design-3-2x-CzRgWftw.webp"
               alt="Urban Lofts"
@@ -613,18 +670,18 @@
             Furnish patios, greenhouses, and cozy terraces.
           </p>
           <picture>
-            <!-- Десктоп webp -->
+
             <source
               srcset="/STP-9537/assets/design-4-1x-C0yjBfTa.webp 1x, /STP-9537/assets/design-4-2x-qGh3Gxnf.webp 2x"
               media="(min-width: 1200px)"
             />
 
-            <!-- Мобілка webp -->
+
             <source
               srcset="/STP-9537/assets/design-mob-4-1x-DJN9ND2X.webp 1x, /STP-9537/assets/design-mob-4-2x-BGQdYq8o.webp 2x"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+ 
             <img
               src="/STP-9537/assets/design-4-2x-qGh3Gxnf.webp"
               alt="Garden Escapes"
@@ -640,18 +697,18 @@
             limited-time events.
           </p>
           <picture>
-            <!-- Десктоп webp -->
+
             <source
               srcset="/STP-9537/assets/design-5-1x-C6XZmL3o.webp 1x, /STP-9537/assets/design-5-2x-PWE0zk56.webp 2x"
               media="(min-width: 1200px)"
             />
 
-            <!-- Мобілка webp -->
+        
             <source
               srcset="/STP-9537/assets/design-mob-5-1x-Bdx95R8U.webp 1x, /STP-9537/assets/design-mob-5-2x-BLstbpqb.webp 2x"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+  
             <img
               src="/STP-9537/assets/design-5-2x-PWE0zk56.webp"
               alt="Event-Themed Spaces"
@@ -664,18 +721,18 @@
           <h2 class="design-card-title">No two spaces feel the same –</h2>
           <p class="design-card-text">Your creativity defines each one.</p>
           <picture>
-            <!-- Десктоп webp -->
+     
             <source
               srcset="/STP-9537/assets/design-6-1x-CUqpBxIv.webp 1x, /STP-9537/assets/design-6-2x-4P8pNGs2.webp 2x"
               media="(min-width: 1200px)"
             />
 
-            <!-- Мобілка webp -->
+   
             <source
               srcset="/STP-9537/assets/design-mob-6-1x-DHd9bAMJ.webp 1x, /STP-9537/assets/design-mob-6-2x-QYjwgP8i.webp 2x"
               media="(max-width: 767px)"
             />
-            <!-- Резервне зображення -->
+
             <img
               src="/STP-9537/assets/design-6-2x-4P8pNGs2.webp"
               alt="No two spaces feel the same"
@@ -684,23 +741,6 @@
           </picture>
         </li>
       </ul>
-      <!-- <div class="design-arrows">
-        <div class="swiper-button-prev">
-          <svg
-            class="icon-pagination-prev"
-            width="7"
-            height="16"
-            fill="#b3b3b3"
-          >
-            <use href="/img/sprite.svg#icon-pagination"></use>
-          </svg>
-        </div>
-        <div class="swiper-button-next">
-          <svg class="icon-pagination-next" width="7" height="16">
-            <use href="/img/sprite.svg#icon-pagination"></use>
-          </svg>
-        </div>
-      </div> -->
     </div>
     <div class="design-navigation">
       <button
@@ -709,13 +749,13 @@
         aria-label="Previous image"
       >
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#left-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#left-button"></use>
         </svg>
       </button>
 
       <button type="button" class="design-button-next" aria-label="Next image">
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#right-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#right-button"></use>
         </svg>
       </button>
     </div>
@@ -1077,7 +1117,7 @@
         data-gallery-button-prev
       >
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#left-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#left-button"></use>
         </svg>
       </button>
 
@@ -1088,7 +1128,7 @@
         data-gallery-button-next
       >
         <svg width="32" height="17">
-          <use href="/STP-9537/assets/sprite-D7cKdcQc.svg#right-button"></use>
+          <use href="/STP-9537/assets/sprite-8GhpnXEi.svg#right-button"></use>
         </svg>
       </button>
     </div>
@@ -1713,15 +1753,28 @@
       </a>
       <ul class="footer-list">
         <li>
-          <a class="footer-link" href="privacy-policy.html">Privacy Policy</a>
+          <a
+            class="footer-link"
+            href="privacy-policy.html"
+            aria-label="privacy-policy"
+            >Privacy Policy</a
+          >
         </li>
         <li>
-          <a class="footer-link" href="terms-and-conditions.html"
+          <a
+            class="footer-link"
+            href="terms-and-conditions.html"
+            aria-label="terms-and-conditions"
             >Terms and Conditions</a
           >
         </li>
         <li>
-          <a class="footer-link" href="cookies-policy.html">Cookies Policy</a>
+          <a
+            class="footer-link"
+            href="cookies-policy.html"
+            aria-label="cookies-policy"
+            >Cookies Policy</a
+          >
         </li>
       </ul>
     </div>
