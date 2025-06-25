@@ -2,7 +2,7 @@ const gallerySwiper = new Swiper('[data-gallery-swiper]', {
   slidesPerView: 2,
   spaceBetween: 20,
   initialSlide: 1,
-  loop: false,
+  loop: true,
   grabCursor: true,
   centeredSlides: false,
   navigation: {

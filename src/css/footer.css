@@ -17,15 +17,15 @@
 .footer-logo {
   display: flex;
   justify-content: center;
-  align-items: center; /* Щоб по вертикалі теж центрувалося, якщо треба */
-  width: 100%; /* Або фіксована ширина, наприклад 100px */
+  align-items: center;
+  width: 100%;
   margin-bottom: 13px;
 }
 
 .footer-logo img {
   width: 16px;
   height: 16px;
-  display: block; /* Щоб прибрати зайвий відступ у img */
+  display: block;
 }
 .footer-list {
   display: flex;
