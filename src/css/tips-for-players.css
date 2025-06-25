@@ -12,7 +12,30 @@
     background-image: url('/img/tips/tips-2x.webp');
   }
 }
-
+.tips-for-players-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  position: absolute;
+  gap: 267px;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.tips-for-players-button-prev {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.tips-for-players-button-next {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
 .tips-for-players-container {
   margin: 0 auto;
   max-width: 320px;
