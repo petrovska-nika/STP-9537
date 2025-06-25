@@ -6,13 +6,43 @@
   background-position: center;
   background-repeat: no-repeat;
   scroll-margin-top: 40px;
+  position: relative;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .tips-for-players {
     background-image: url('/img/tips/tips-2x.webp');
   }
 }
-
+.tips-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  position: absolute;
+  gap: 267px;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.tips-button-prev {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.tips-button-next {
+  fill: #1e1e1e;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.tips-button-prev.swiper-button-disabled,
+.tips-button-next.swiper-button-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+  cursor: default;
+}
 .tips-for-players-container {
   margin: 0 auto;
   max-width: 320px;
