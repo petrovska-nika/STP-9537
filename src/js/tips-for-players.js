@@ -1,22 +1,18 @@
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
-
-import 'swiper/css';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 let swiperInstance;
 
 function initSwiper() {
   if (window.innerWidth < 1200 && !swiperInstance) {
     swiperInstance = new Swiper('[data-tips-section-swiper]', {
-      modules: [Navigation, Pagination],
+      modules: [Navigation],
       slidesPerView: 2,
       spaceBetween: 20,
       loop: false,
       navigation: {
-        nextEl: '[data-tips-for-players-btn-next]',
-        prevEl: '[data-tips-for-players-btn-prev]',
+        nextEl: '[data-tips-btn-next]',
+        prevEl: '[data-tips-btn-prev]',
       },
     });
   } else if (window.innerWidth >= 1200 && swiperInstance) {
