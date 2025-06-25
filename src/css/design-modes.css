@@ -112,6 +112,9 @@
   .design-modes-container {
     width: 1200px;
   }
+  .design-navigation {
+    display: none;
+  }
   .design-title {
     font-size: 64px;
     width: 100%;
