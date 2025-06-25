@@ -57,7 +57,7 @@
 }
 .tips-for-players-list {
   list-style: none;
-  padding: 0;
+  padding-left: 3px;
   margin: 0;
   display: flex;
 }
