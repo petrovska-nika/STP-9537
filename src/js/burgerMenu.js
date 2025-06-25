@@ -27,7 +27,6 @@
     document.body.style.overflow = '';
   }
 
-  // Додаємо закриття при розширенні екрану
   window.addEventListener('resize', () => {
     if (window.innerWidth >= 1200) {
       closeModal();
