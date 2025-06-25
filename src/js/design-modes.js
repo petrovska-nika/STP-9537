@@ -19,7 +19,7 @@ function initSwiper() {
         prevEl: '.design-button-prev',
       },
     });
-  } else if (window.innerWidth >= 768 && swiperInstance) {
+  } else if (window.innerWidth >= 1200 && swiperInstance) {
     swiperInstance.destroy(true, true);
     swiperInstance = undefined;
   }

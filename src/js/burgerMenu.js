@@ -3,7 +3,7 @@
     body: document.body,
     openModalBtn: document.querySelector('[data-menu-open]'),
     closeModalBtn: document.querySelector('[data-menu-close]'),
-    links: document.querySelectorAll('.mobile-menu-link'),
+    links: document.querySelectorAll('[data-mobile-menu-link]'),
     modal: document.querySelector('[data-modal]'),
   };
 
@@ -17,13 +17,13 @@
     refs.modal.setAttribute('data-visible', 'open');
     refs.openModalBtn.setAttribute('data-visible', 'close');
     refs.closeModalBtn.setAttribute('data-visible', 'open');
-    document.body.style.overflow = 'hidden'; // заборонити скрол при відкритті
+    document.body.style.overflow = 'hidden';
   }
 
   function closeModal() {
     refs.modal.setAttribute('data-visible', 'close');
     refs.openModalBtn.setAttribute('data-visible', 'open');
     refs.closeModalBtn.setAttribute('data-visible', 'close');
-    document.body.style.overflow = ''; // повернути скрол
+    document.body.style.overflow = '';
   }
 })();
