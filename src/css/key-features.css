@@ -37,7 +37,7 @@
   margin-bottom: 18px;
 }
 .key-features-img {
-  width: 47px;
+  max-width: 47px;
   height: 47px;
 }
 .key-features-item-title {
@@ -87,7 +87,7 @@
     padding-left: 250px;
   }
   .key-features-img {
-    width: 180px;
+    max-width: 180px;
     height: 180px;
   }
   .key-features-item-title {

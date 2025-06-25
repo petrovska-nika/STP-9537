@@ -6,10 +6,20 @@
       website, you agree to our use of cookies.
     </p>
     <div>
-      <button type="button" class="accept-cookies" id="acceptCookies">
+      <button
+        type="button"
+        class="accept-cookies"
+        id="acceptCookies"
+        aria-label="accept cookies"
+      >
         accept cookies
       </button>
-      <button type="button" class="decline-cookies" id="declineCookies">
+      <button
+        type="button"
+        class="decline-cookies"
+        id="declineCookies"
+        aria-label="decline cookies"
+      >
         decline cookies
       </button>
     </div>
@@ -30,12 +40,23 @@
         target="_blank"
         rel="noopener noreferrer"
         class="hero-btn"
+        aria-label="Download Match & Design on Google Play"
       >
-        <img
-          class="hero-btn-img"
-          src="/img/hero-btn-play.png"
-          alt="btn-google-play"
-        />
+        <picture>
+          <source
+            srcset="/img/hero/google-play-1x.webp 1x,
+          /img/hero/google-play-1x.webp 2x 2x
+          "
+          />
+          <img
+            class="hero-btn-img"
+            src="/img/hero/google-play-2x.webp"
+            alt="btn-google-play"
+            width="24"
+            height="24"
+            loading="lazy"
+          />
+        </picture>
         Google Play
       </a>
     </div>

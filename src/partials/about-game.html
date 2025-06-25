@@ -16,18 +16,25 @@
     <picture>
       <source
         media="(min-width: 1200px)"
-        srcset="/img/about-the-game-desk.png 1x"
+        srcset="
+          /img/about-the-game/about-the-game-desk-1x.webp 1x,
+          /img/about-the-game/about-the-game-desk-2x.webp 2x
+        "
       />
       <source
         media="(min-width: 320px)"
-        srcset="/img/about-the-game-mob.png 1x"
+        srcset="
+          /img/about-the-game/about-the-game-mob-1x.webp 1x,
+          /img/about-the-game/about-the-game-mob-2x.webp 2x
+        "
       />
       <img
         class="about-the-game-img"
-        src="/img/about-the-game-desk.png"
+        src="/img/about-the-game/about-the-game-desk-2x.webp"
         alt="about-the-game-desk"
         width="550"
         height="301"
+        loading="lazy"
       />
     </picture>
   </div>
