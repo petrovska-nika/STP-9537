@@ -1,4 +1,4 @@
-const gallerySwiper = new Swiper('.gallery-swiper', {
+const gallerySwiper = new Swiper('[data-gallery-swiper]', {
   slidesPerView: 2,
   spaceBetween: 20,
   initialSlide: 1,
@@ -6,7 +6,7 @@ const gallerySwiper = new Swiper('.gallery-swiper', {
   grabCursor: true,
   centeredSlides: false,
   navigation: {
-    nextEl: '.gallery-button-next',
-    prevEl: '.gallery-button-prev',
+    nextEl: '[data-gallery-button-next]',
+    prevEl: '[data-gallery-button-prev]',
   },
 });
