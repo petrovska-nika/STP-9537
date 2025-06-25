@@ -1,4 +1,4 @@
-const modal = document.querySelector('.modal-cookies');
+const modal = document.querySelector('[data-modal-cookies]');
 const acceptBtn = document.getElementById('acceptCookies');
 const declineBtn = document.getElementById('declineCookies');
 
