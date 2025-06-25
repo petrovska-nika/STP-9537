@@ -13,9 +13,11 @@
   }
 }
 .key-features-container {
+  margin: 0 auto;
+}
+.key-features-back {
   padding: 24px 10px;
   background-color: #fff2df;
-  width: 300px;
   border-radius: 25px;
 }
 
@@ -76,6 +78,8 @@
     scroll-margin-top: 74px;
   }
   .key-features-container {
+  }
+  .key-features-back {
     padding: 40px 30px;
     width: 1056px;
   }
