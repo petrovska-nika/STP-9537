@@ -8,6 +8,11 @@
   scroll-margin-top: 40px;
   position: relative;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .how-the-game-works-section {
+    background-image: url('/img/how-the-game/how-the-game-2x.webp');
+  }
+}
 .how-the-game-navigation {
   display: flex;
   justify-content: center;
@@ -16,7 +21,7 @@
   margin-bottom: 16px;
   position: absolute;
   gap: 267px;
-  top: 50%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -33,11 +38,6 @@
   padding: 0;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .levels-and-puzzle {
-    background-image: url('/img/how-the-game/how-the-game-2x.webp');
-  }
-}
 .how-the-game-works-container {
   width: 320px;
 }
@@ -50,13 +50,14 @@
 }
 .how-the-game-works-list {
   list-style: none;
-  padding: 0;
+  padding-left: 9px;
   margin: 0;
   display: flex;
 }
 [data-game-section-swiper] .swiper-slide {
   padding: 0 !important;
 }
+
 .how-the-game-works-item .number {
   position: relative;
   font-family: 'Inter', sans-serif;
@@ -192,6 +193,9 @@
 
   .how-the-game-works-container {
     width: 1200px;
+  }
+  .how-the-game-navigation {
+    display: none;
   }
   .how-the-game-works-title {
     font-size: 64px;

@@ -12,32 +12,17 @@
 
 .modal-cookies {
   position: fixed;
-
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0) 0%,
-    /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
-    /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+    rgba(255, 255, 255, 0.1) 85%,
+    rgba(255, 255, 255, 0.3) 100%
   );
-
-  /* Рамка */
   border: 1px solid rgba(255, 255, 255, 0.8);
-
-  /* Більший радіус */
   border-radius: 40px;
-
-  /* Скляний ефект */
   backdrop-filter: blur(30px);
-
-  /* Темна глибока тінь без світіння */
   box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
-
-  /* Вирівнювання тексту */
   text-align: left;
-
-  /* Плавність при наведенні */
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-
   width: 288px;
   height: 330px;
   z-index: 999;
@@ -126,38 +111,20 @@
   margin: 0 auto;
   padding: 18px 22px;
   margin-bottom: 24px;
-  /* Радіальний градієнт: центр прозорий, краї біліші */
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0) 0%,
-    /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
-    /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+    rgba(255, 255, 255, 0.1) 85%,
+    rgba(255, 255, 255, 0.3) 100%
   );
-
-  /* Рамка */
   border: 1px solid rgba(255, 255, 255, 0.8);
-
-  /* Більший радіус */
   border-radius: 40px;
-
-  /* Скляний ефект */
   backdrop-filter: blur(5px);
-
-  /* Темна глибока тінь без світіння */
   box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
-
-  /* Вирівнювання тексту */
   text-align: left;
-
-  /* Плавність при наведенні */
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Ефект підняття при наведенні
-.hero-content:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
-} */
 .hero-title {
   font-size: 32px;
   letter-spacing: -0.04em;
@@ -219,7 +186,7 @@
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background: url('../img/hero.png'),
+    background: url('/img/hero.png'),
       linear-gradient(180deg, #4a2c7d 0%, #814de1 100%);
     background-position: center;
     background-repeat: no-repeat;

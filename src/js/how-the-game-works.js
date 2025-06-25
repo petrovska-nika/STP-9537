@@ -15,8 +15,8 @@ function initSwiper() {
       spaceBetween: 0,
       loop: false,
       navigation: {
-        nextEl: '.how-the-game-button-next',
-        prevEl: '.how-the-game-button-prev',
+        nextEl: '[data-how-the-game-btn-next]',
+        prevEl: '[data-how-the-game-btn-prev]',
       },
     });
   } else if (window.innerWidth >= 1200 && swiperInstance) {
