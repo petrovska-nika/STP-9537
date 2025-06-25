@@ -1,17 +1,14 @@
 .visual-gallery {
+  padding-top: 32px;
+  padding-bottom: 32px;
   width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
   scroll-margin-top: 40px;
 }
 .visual-gallery-container {
-  padding: 32px 16px;
   max-width: 320px;
-  overflow-x: hidden;
   margin: 0 auto;
 }
 .subtitle-visual-gallery {
-  font-weight: 400;
   font-size: 32px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -19,7 +16,6 @@
 }
 .visual-gallery-text {
   font-family: 'Joti One', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -28,7 +24,6 @@
 }
 .visual-gallery-text-subtitle {
   font-family: 'Joti One', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: -0.04em;
   text-align: center;
@@ -94,13 +89,13 @@
 }
 @media screen and (min-width: 1200px) {
   .visual-gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
     max-width: 1200px;
-    margin: 0 auto;
     scroll-margin-top: 74px;
   }
 
   .visual-gallery-container {
-    padding: 100px 74px;
     max-width: 1200px;
   }
 

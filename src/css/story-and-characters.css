@@ -1,4 +1,6 @@
 .story-and-characters {
+  padding-top: 32px;
+  padding-bottom: 32px;
   background-color: #fff1c2;
   width: 100%;
   display: block;
@@ -7,7 +9,6 @@
 }
 .story-and-characters-container {
   margin: 0 auto;
-  padding: 32px 16px;
   max-width: 320px;
   overflow-x: hidden;
 }
@@ -72,7 +73,6 @@
     scroll-margin-top: 74px;
   }
   .story-and-characters-container {
-    padding: 100px 112px;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
