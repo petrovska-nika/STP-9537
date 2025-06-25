@@ -37,7 +37,12 @@
   background: transparent;
   padding: 0;
 }
-
+.how-the-game-button-prev.swiper-button-disabled,
+.how-the-game-button-next.swiper-button-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+  cursor: default;
+}
 .how-the-game-works-container {
   width: 320px;
 }
