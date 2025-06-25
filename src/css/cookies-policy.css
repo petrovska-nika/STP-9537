@@ -21,17 +21,6 @@
   color: #2c0c66;
   margin-bottom: 36px;
 }
-.go-to-home::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 12px;
-  margin-right: 8px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none"><path d="M6.5 11L1.5 6L6.5 1" stroke="%232C0C66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: middle;
-}
 .go-to-home:hover {
   border: 1px solid rgba(44, 12, 102, 0.5);
   border-radius: 100px;
