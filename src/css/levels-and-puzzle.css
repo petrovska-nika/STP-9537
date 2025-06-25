@@ -44,12 +44,6 @@
 .levels-item:not(:last-child) {
   margin-bottom: 16px;
 }
-.levels-container-item:nth-child(1) {
-  margin-bottom: 16px;
-}
-.levels-container-item:nth-child(2):not(:last-child) {
-  margin-bottom: 16px;
-}
 .levels-list {
   margin-top: 25px;
 }
@@ -62,20 +56,12 @@
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0) 0%,
-    /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
-    /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+    rgba(255, 255, 255, 0.1) 85%,
+    rgba(255, 255, 255, 0.3) 100%
   );
-
-  /* Рамка */
   border: 1px solid rgba(255, 255, 255, 0.8);
-
-  /* Більший радіус */
   border-radius: 40px;
-
-  /* Скляний ефект */
   backdrop-filter: blur(3px);
-
-  /* Темна глибока тінь без світіння */
   box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
 }
 .levels-item-text {
@@ -103,7 +89,7 @@
   }
   .levels-list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -111,6 +97,16 @@
     width: 358px;
     height: 197px;
   }
+  .levels-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .levels-item:nth-child(1) {
+    margin-right: 340px;
+  }
+  .levels-item:nth-child(3) {
+    margin-right: 194px;
+  }
+
   .levels-title {
     margin: 0 auto;
     font-size: 64px;
@@ -124,20 +120,12 @@
     background: radial-gradient(
       circle,
       rgba(255, 255, 255, 0) 0%,
-      /* повністю прозорий в центрі */ rgba(255, 255, 255, 0.1) 85%,
-      /* м'який перехід */ rgba(255, 255, 255, 0.3) 100% /* світлі краї */
+      rgba(255, 255, 255, 0.1) 85%,
+      rgba(255, 255, 255, 0.3) 100%
     );
-
-    /* Рамка */
     border: 1px solid rgba(255, 255, 255, 0.8);
-
-    /* Більший радіус */
     border-radius: 40px;
-
-    /* Скляний ефект */
     backdrop-filter: blur(3px);
-
-    /* Темна глибока тінь без світіння */
     box-shadow: 0 8px 20px rgba(174, 174, 174, 0.4);
   }
   .levels-span {
@@ -145,25 +133,10 @@
     font-size: 24px;
     line-height: 1;
     letter-spacing: -0.02em;
-    vertical-align: baseline; /* вирівняти по текстовій лінії */
+    vertical-align: baseline;
     padding: 0 4px;
   }
-  .levels-item:not(:last-child) {
-    margin-bottom: 40px;
-  }
-  .levels-container-item:nth-child(2):not(:last-child) {
-    margin-bottom: 0;
-  }
-  .levels-container-item:nth-child(1) {
-    display: flex;
-    gap: 340px;
-    margin-bottom: 0;
-  }
-  .levels-container-item:nth-child(2) {
-    display: flex;
-    gap: 194px;
-    margin-bottom: 0;
-  }
+
   .levels-text-end {
     display: block;
     margin-top: 42px;
