@@ -24,8 +24,5 @@
     <symbol id="right-button" viewBox="0 0 6 15">
       <path d="M6 7.44629L0.75 0.518085L0.75 14.3745L6 7.44629Z" fill="#2C0C66" />
     </symbol>
-<symbol id="btn-down" viewBox="0 0 12 7">
-    <path d="M1 1L6 6L11 1" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  </symbol>
   </defs>
 </svg>
