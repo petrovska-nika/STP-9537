@@ -13,10 +13,10 @@ function initSwiper() {
       modules: [Navigation, Pagination],
       slidesPerView: 1,
       spaceBetween: 13,
-      loop: false,
+      loop: true,
       navigation: {
-        nextEl: '.design-button-next',
-        prevEl: '.design-button-prev',
+        nextEl: '[data-design-btn-prev]',
+        prevEl: '[data-design-btn-prev]',
       },
     });
   } else if (window.innerWidth >= 1200 && swiperInstance) {
