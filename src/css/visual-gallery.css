@@ -3,6 +3,7 @@
   padding-bottom: 32px;
   width: 100%;
   scroll-margin-top: 40px;
+  margin: 0 auto;
 }
 .visual-gallery-container {
   max-width: 320px;
